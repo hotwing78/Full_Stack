@@ -1,9 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import ProjectItem from "./Project/ProjectItem";
 
 export default class Dashboard extends Component {
     render() {
         return (
-            <h1> This is the Dashboard</h1>
-        )
+
+            <div>
+                <h1>This is the Dashboard</h1>
+                <ProjectItem />
+            </div>
+        );    
     }
 }

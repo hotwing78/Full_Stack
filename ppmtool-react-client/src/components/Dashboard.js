@@ -11,7 +11,8 @@ class Dashboard extends Component {
             <div className="col-md-12">
               <h1 className="display-4 text-center">Projects</h1>
               <br />
-                <CreateProjectButton/>
+              <CreateProjectButton />
+
               <br />
               <hr />
               <ProjectItem />
